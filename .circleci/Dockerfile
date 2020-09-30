@@ -45,3 +45,5 @@ RUN apt-get install jq -y
 RUN apt-get install curl -y
 
 RUN apt-get install unzip -y
+
+ENTRYPOINT ["/bin/sh", "-c"]
